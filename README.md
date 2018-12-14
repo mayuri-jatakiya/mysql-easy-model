@@ -3,10 +3,10 @@ MySQL Easy Model is a MySQL object modeling tool designed to work in an asynchro
 
 ## Installation
 Install from npm package:
-> npm install mysql-easy-model
+> npm install ws-mysql-easy-model
 
 Or install from git:
-> npm install git://github.com/rudolfoborges/mysql-easy-model.git
+> npm install git://github.com/mayuri-jatakiya/mysql-easy-model.git
 
 ## Usage
 
@@ -14,7 +14,7 @@ Or install from git:
 
 First, we need to define a connection.
 ```js
-var mysqlEasyModel = require('mysql-easy-model');
+var mysqlEasyModel = require('ws-mysql-easy-model');
 
 mysqlEasyModel.createConnection({
 	connectionLimit : 10,
@@ -167,18 +167,18 @@ user.destroy(function(err, result){
 ### Examples
 Contains runnable sample mysql-easy-model programs.
 
-* [Using express](https://github.com/rudolfoborges/mysql-easy-model/tree/master/examples/express)
+* [Using express](https://github.com/mayuri-jatakiya/mysql-easy-model/tree/master/examples/express)
 
 ### Bugs
 
-If you'd like to leave feedback, please [open an issue on GitHub.](https://github.com/rudolfoborges/mysql-easy-model/issues)
+If you'd like to leave feedback, please [open an issue on GitHub.](https://github.com/mayuri-jatakiya/mysql-easy-model/issues)
 
 ### License
 
 mysql-easy-model is released under [MIT license.](http://opensource.org/licenses/mit-license.php)
 
 ### Credits                             
-mysql-easy-model was created by [Rudolfo Borges.](http://rudolfoborges.com.br)
+mysql-easy-model was created by [MAyuri Jatakiya.](https://google.com)
 
 
 
