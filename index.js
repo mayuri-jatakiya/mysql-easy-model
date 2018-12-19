@@ -1,5 +1,5 @@
 /**
- * Created by rudolfoborges on 12/28/15.
+ * Created by Mayuri Jatakiya on 12/01/18.
  */
 'use strict';
 
@@ -42,6 +42,7 @@ exports.model = function(name, options){
     Model.query = baseModel.query;
 
     Model.prototype.create = baseModel.create;
+    Model.prototype.createBatch = baseModel.createBatch;
     Model.prototype.update = baseModel.update;
     Model.prototype.destroy = baseModel.destroy;
     Model.prototype.read = baseModel.read;
